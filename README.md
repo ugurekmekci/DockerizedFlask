@@ -12,7 +12,7 @@ git clone https://github.com/ugurekmekci/DockerizedFlask.git
 cd DockerizedFlask
 ```
 
-To get the containers running, build the images and then start the services
+To get the containers running, build the images and then start the services.
 
 ```bash
 docker-compose build
@@ -26,9 +26,15 @@ Create DataBase Model
 docker-compose run web /usr/local/bin/python create_db.py
 ```
 
-- Open your browser and navigate to the IP address associated with Docker host
+- To check running contaiers health and display a live stream of resource usage statistics
 
-To clean up DB volumes follow steps below respectively
+```bash
+docker ps
+
+docker stats
+```
+
+To clean up DB volumes follow steps below respectively.
 
 ```bash
 docker-compose down -v
