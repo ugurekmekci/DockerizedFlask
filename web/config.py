@@ -8,7 +8,7 @@ class BaseConfig(object):
      
  
 """
-If you choose to use dynamic variables, uncommnent the comment block below
+If you need to use dynamic variables, uncommnent the comment block below
 and configure your environment accordingly.
 """
 
