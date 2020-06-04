@@ -20,17 +20,23 @@ docker-compose build
 docker-compose up -d
 ```
 
-Create DataBase Model
+Create database model
 
 ```bash
 docker-compose run web /usr/local/bin/python create_db.py
 ```
+- Now, open your browser and navigate to the IP address associated with Docker host.
 
-- To check running contaiers health and display a live stream of resource usage statistics
+## Extra Help
+To list contaiers
 
 ```bash
 docker ps
+```
 
+To display a live stream of resource usage statistics.
+
+```bash
 docker stats
 ```
 
