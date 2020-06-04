@@ -25,13 +25,13 @@ Create database model
 ```bash
 docker-compose run web /usr/local/bin/python create_db.py
 ```
-- Now, open your browser and navigate to the IP address associated with Docker host.
+- Now, open your browser and navigate to the IP address associated with Docker host. It should be binded to 0.0.0.0 by default.
 
 ## Extra Help
 To list containers
 
 ```bash
-docker ps
+docker-compose ps
 ```
 
 To display a live stream of resource usage statistics.
