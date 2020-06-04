@@ -4,7 +4,7 @@ This project is a working example of multi-container web application consisting 
 
 ## Installation
 
-Clone repo using the git command and navigate in to project directory.
+Clone repo using the git command and navigate into project directory.
 
 ```bash
 git clone https://github.com/ugurekmekci/DockerizedFlask.git
